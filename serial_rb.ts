@@ -7,6 +7,6 @@ namespace serial_rb {
     //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
     //% help=serial/read-buffer advanced=true weight=5
         export function readBuffer(length: number): Buffer;{
-            return serial_rb.readBuffer();
+            return;
         }
     }
