@@ -4,7 +4,7 @@ namespace serial_rb {
     * @param length default buffer length, eg: 64
     */
     //% weight=89 blockGap=8
-    //% blockId=serial_readbuffer block="serial|read buffer %length"
+    //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
     //% help=serial/read-buffer advanced=true weight=5
         export function readBuffer(length: number): Buffer;{
             return serial_rb.readBuffer();
