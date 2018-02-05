@@ -1,48 +1,22 @@
-# bluetooth-mouse
+# serial-rb
 
-This PXT package allows the micro:bit to act as a Mouse peripheral.
+This PXT package allows the Calliope Mini to read into a buffer from serial. This is not serious, I am just testing my understanding of how PXT packages work.
 
 ## Usage
 
-Place a ``||bluetooth start mouse service||`` block in your program to enable Bluetooth LE Mouse.
-With this block, the `micro:bit` starts advertise BLE packets as a Mouse peripheral.
-
-```blocks
-bluetooth.startMouseService();
-```
-
-For example, hold left mouse button :
-
-```blocks
-bluetooth.setMouseButton(MouseButton.MOUSE_BUTTON_LEFT, ButtonState.BUTTON_DOWN);
-```
-
-For example, move mouse pointer using acceleration of micro:bit :
-
-```blocks
-basic.forever(() => {
-    bluetooth.setMouseSpeed(input.acceleration(Dimension.X) / 8, input.acceleration(Dimension.Y) / 8, 0);
-}
-```
+...
 
 ## Supported Platforms
 
-Currently, tested with `micro:bit` and `Android` host only.
-Mac OS X can connect with `micro:bit`, but it can't receive Mouse message.
+This is supposed to work with the Calliope Mini
 
 ## Supported targets
 
 * for PXT/microbit
+* for PXT/calliope-mini
 
 (The metadata above is needed for package search.)
 
 ## License
 
 MIT
-
-icon.png : copyright By Darkone - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=235633
-
-```package
-bluetooth
-bluetooth-mouse=github:kshoji/pxt-bluetooth-mouse
-```
