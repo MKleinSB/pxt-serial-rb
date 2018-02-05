@@ -2,10 +2,10 @@
 
 
     /**
-     * A set of functions to send mouse commands over Bluetooth
+     * serial-rb
      */
 
-declare namespace bluetooth {
+declare namespace serial-rb {
 }
 
 // Auto-generated. Do not edit. Really.
