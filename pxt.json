@@ -10,7 +10,6 @@
         "README.md",
         "serial-rb.ts",
         "serial-rb.cpp",
-        "serial-rb.h",
         "shims.d.ts",
         "enums.d.ts"
     ],
