@@ -1,3 +1,3 @@
 basic.forever(() => {
-    item = serial.readBuffer(64)
+    item = serial_rb.readBuffer(64)
 })
