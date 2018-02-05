@@ -16,6 +16,11 @@ This is supposed to work with the Calliope Mini
 
 (The metadata above is needed for package search.)
 
+```package
+serial
+serial-rb=github:hhf42/pxt-serial-rb
+```
+
 ## License
 
 MIT
