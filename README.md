@@ -1,4 +1,4 @@
-# serial-rb
+# serial_rb
 
 This PXT package allows the Calliope Mini to read into a buffer from serial. This is not serious, I am just testing my understanding of how PXT packages work.
 
