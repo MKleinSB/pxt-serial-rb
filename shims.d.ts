@@ -2,11 +2,11 @@
 
 
     /**
-     * serial-rb
+     * serial_rb
      */
     //% weight=2 color=#002050 icon="\uf287"
     //% advanced=true
-declare namespace serial-rb {
+declare namespace serial_rb {
         /**
          * Reads multiple characters from the receive buffer and fills a user buffer.
          * @param length default buffer length, eg: 64
