@@ -6,7 +6,5 @@ namespace serial_rb {
     //% weight=89 blockGap=8
     //% blockId=serial_readbuffer block="serial|read buffer %length"
     //% help=serial/read-buffer advanced=true weight=5
-        export function readBuffer(value: number): void {
-        readBuffer(value.toString());
-        }
+        export function readBuffer(length: number): Buffer;
     }
