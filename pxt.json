@@ -1,19 +1,16 @@
 {
-    "name": "bluetooth-mouse",
+    "name": "serial-rb",
     "version": "0.0.1",
-    "description": "A Bluetooth Mouse service",
+    "description": "Serial Read Buffer",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "bluetooth": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
-        "bluetooth.ts",
-        "BluetoothMouseService.cpp",
-        "BluetoothMouseService.h",
-        "USBHID_Types.h",
-        "mouse.cpp",
+        "serial-rb.ts",
+        "serial-rb.cpp",
+        "serial-rb.h",
         "shims.d.ts",
         "enums.d.ts"
     ],
