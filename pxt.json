@@ -8,8 +8,8 @@
     },
     "files": [
         "README.md",
-        "serial-rb.ts",
-        "serial-rb.cpp",
+        "serial_rb.ts",
+        "serial_rb.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],
