@@ -13,7 +13,6 @@ This is supposed to work with the Calliope Mini
 ## Supported targets
 
 * for PXT/microbit
-* for PXT/calliope-mini
 
 (The metadata above is needed for package search.)
 
