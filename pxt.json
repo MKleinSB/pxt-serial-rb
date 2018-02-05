@@ -11,7 +11,8 @@
         "serial_rb.ts",
         "serial_rb.cpp",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "pxt.h"
     ],
     "testFiles": [
         "tests.ts"
