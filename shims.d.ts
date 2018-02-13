@@ -12,6 +12,12 @@ declare namespace serial_rb {
         //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
         //% help=serial/read-buffer weight=5 shim=serial_rb::readBuffer
         function readBuffer(length: number): Buffer;
+        /**
+         * Sends a buffer through Serial connection
+         */
+        //% blockId=serial_writebuffer block="serial_rb|write buffer %buffer"
+        //% help=serial/write-buffer weight=6 shim=serial_rb::writeBuffer
+        function writeBuffer(buffer: Buffer): void;
 }
 
 // Auto-generated. Do not edit. Really.
