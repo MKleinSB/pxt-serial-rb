@@ -15,6 +15,7 @@ namespace serial_rb {
       ManagedBuffer buf(buffer);
       uBit.serial.send(buf.getBytes(), buf.length());
     }
+    
     /**
      * Reads multiple characters from the receive buffer and fills a user buffer.
      * @param length default buffer length, eg: 64
