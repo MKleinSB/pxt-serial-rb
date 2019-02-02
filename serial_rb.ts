@@ -1,6 +1,6 @@
 namespace serial_rb {
     }
 
-    function writeBuffer(Buffer: buffer) : void {
+    function writeBuffer(buff: buffer) : void {
       if (!buffer) return;
 }
