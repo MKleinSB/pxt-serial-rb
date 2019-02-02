@@ -2,7 +2,7 @@
 
 This PXT package allows the Calliope Mini to read into a buffer from serial or write a buffer to serial. This is not serious, I am just testing my understanding of how PXT packages work. Everything was done by hand (even the files that claim auto-generation) because I am still setting up my environment.
 
-This will becode obsolete as soon as the Calliope folks refresh their serial.cpp which (I think) should already include serial.readBuffer and serial.writeBuffer, because this code is present in the serial.cpp from microbit and there are no hardware dependencies.
+This will become obsolete as soon as the Calliope folks refresh their serial.cpp which (I think) should already include serial.readBuffer and serial.writeBuffer, because this code is present in the serial.cpp from microbit and there are no hardware dependencies.
 
 Nonetheless, this works. It was tested with reading binary data stream from SDS011 air quality sensor.
 
